@@ -1,15 +1,160 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dan Lee Portfolio</title>
+    <link rel="stylesheet" href="app.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="app.css"/>
+<script src="https://kit.fontawesome.com/30b027be88.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <h1>ThatOneDan</h1>
-    <button onclick="alertButton()">hallo</button>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">PROFESSIONAL</a></li>
+                    <li><a href="">ESPORTS</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars"  onclick="showMenu()"></i>
+        </nav>
+
+<div class="text-box">
+    <h1>thatonedan portfolio yippee</h1>
+    <p>According to all known laws of aviation, there is no way a bee should be able to fly.<br> Its wings are too small to get its fat little body off the ground.</p>
+    <a href="" class="hero-btn">Please have a look around</a>
+</div>
+</section>
+
+<!-- ----------ABOUT PAGE------------- -->
+
+<section class="about">
+    <h1>ABOUT ME</h1>
+    <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+
+    <div class="row">
+        <div class="about-col">
+            <h3>my life be like</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="about-col">
+            <h3>cool stuff</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="about-col">
+            <h3>morecool stuff</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.n</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- ---------professional tab------------- -->
+
+<section class="pro">
+    <h1>my pro career</h1>
+    <p>asdjkfhasdkfghasdkljflaskdjhfaskljdfaklsdjflaksdjfaklsdjhfkajsdhfkajsdhfaksdhfakljsdhfkjasdhfkalsdjhfaksdhdfkasdjhfakljh</p>
+
+    <div class="row">
+        <div class="pro-col">
+            <img src="images/placeholder.png">
+            <div class="layer">
+                <h3>i suck at life</h3>
+            </div>
+        </div>
+        <div class="pro-col">
+            <img src="images/placeholder.png">
+            <div class="layer">
+                <h3>i suck at life pt2</h3>
+            </div>
+        </div>
+        <div class="pro-col">
+            <img src="images/placeholder.png">
+            <div class="layer">
+                <h3>i suck at life pt3</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ---------esports---------- -->
+<section class="esports">
+    <h1>Esports career</h1>
+    <p>gamergamergamergamergamergamergamergamergamergamergamergamergamergamergamergamergamergamergamergamergamergamergamergamergamergamergamergamergamergamergamergamer</p>
+
+    <div class="row">
+        <div class="esports-col">
+            <img src="images/casterdan.png">
+            <h3>Play-by-Play Commentator</h3>
+            <p>been doing this casting gig thing since 2019 and have covered a variety of games like League of Legends, VALORANT, Teamfight Tactics, and CS:GO!</p>
+        </div>
+        <div class="esports-col">
+            <img src="images/eeworker.png">
+            <h3>Online Tournament Admin III</h3>
+            <p>helping with online tournaments and troubleshooting any issues players may have</p>
+        </div>
+        <div class="esports-col">
+            <img src="images/obs.png">
+            <h3>Esports Producer</h3>
+            <p>i have production experience and am proficient with OBS Studio and Streamlabs!</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- ----------contacts--------- -->
+
+<section class="contact">
+    <h1>Feel free to contact me or visit any of my socials!</h1>
+    <a href="" class="hero-btn">CONTACTS</a>
+</section>
+
+<!-- ---------footer------------- -->
+
+<section class="footer">
+    <h4>About Me?</h4>
+    <p>hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii<br>iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made with 4fun in mind by Daniel Lee</p>
+</section>
+
+
+
+<!-- JS for toggle menu-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0px";
+        }
+        
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>    
+
 </body>
-
-<script src="app.js"></script>
-
 </html>
